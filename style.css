@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+.imgLogo{
+    width: 180px;
+    height: 80px;
+}
+.conteinerNav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+.Bprodutos{
+    margin-left: 800px;
+    width: 150px;
+    height: 40px;
+    background-color: #0A99FE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.Bprodutos:hover{
+    background-color: #12639c;
+}
+.Bcontatos{
+    width: 150px;
+    height: 40px;
+    background-color: #0a98fe10;
+    color: #0A99FE;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.Bcontatos:hover{
+    background-color: #fe0a0a9d;
+    color: #FFFFFF;
+}
+.principal {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+img {
+    height: 170px;
+    width: 120px;
+    align-items: center;
+    border-radius: 8px;
+}
+.tratarImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    border-radius: 8px;
+    max-height: 170px;
+}
+.card {
+    height: 275px;
+    width: 207px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+.nomeIten {
+    text-align: center;
+    color: #1B1B1B;
+    font-size: 20px;
+}
+.valorItem {
+    text-align: center;
+    color: #868383;
+    font-size: 16px;
+}
+ul {
+    display: flex;
+    overflow-x: auto;
+    max-width: 800px;
+    gap: 16px;
+    list-style: none;
+}
+.titulo {
+    text-align: center;
+    font-size: 20px;
+}
+.titulo2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
