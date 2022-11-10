@@ -3,15 +3,25 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
 }
+header {
+    max-width: 600px;
+}
 .imgLogo{
     width: 180px;
     height: 80px;
 }
 .conteinerNav{
+    max-width: 500px;
     display: flex;
     gap: 50px;
     align-items: center;
     box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+.buttons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
 }
 .Bprodutos{
     margin-left: 800px;
@@ -22,6 +32,7 @@ body {
     border: none;
     border-radius: 8px;
     font-size: 20px;
+    
 }
 .Bprodutos:hover{
     background-color: #12639c;
@@ -79,7 +90,14 @@ img {
     color: #868383;
     font-size: 16px;
 }
-ul {
+.list1 {
+    display: flex;
+    overflow-x: auto;
+    max-width: 800px;
+    gap: 16px;
+    list-style: none;
+}
+.list2 {
     display: flex;
     overflow-x: auto;
     max-width: 800px;
